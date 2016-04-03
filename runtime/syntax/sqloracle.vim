@@ -4,7 +4,7 @@
 " Repository:   https://github.com/chrisbra/vim-sqloracle-syntax
 " License:      Vim
 " Previous Maintainer:	Paul Moore
-" Last Change:	2015 Nov 24
+" Last Change:	2015 Oct 21
 
 if exists("b:current_syntax")
   finish
@@ -16,9 +16,9 @@ syn case ignore
 
 syn keyword sqlSpecial	false null true
 
-syn keyword sqlKeyword	access add as asc begin by case check cluster column
+syn keyword sqlKeyword	access add as asc begin by check cluster column
 syn keyword sqlKeyword	cache compress connect current cursor decimal default desc
-syn keyword sqlKeyword	else elsif end exception exclusive file for from
+syn keyword sqlKeyword	else elsif end case when exception exclusive file for from
 syn keyword sqlKeyword	function group having identified if immediate increment
 syn keyword sqlKeyword	index initial initrans into is level link logging loop
 syn keyword sqlKeyword	maxextents maxtrans mode modify monitoring
